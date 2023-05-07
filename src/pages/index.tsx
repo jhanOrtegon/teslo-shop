@@ -1,11 +1,10 @@
-import React from 'react'
+import { NextPage } from 'next';
+import React from 'react';
 
-const index = () => {
-  return (
-    <div>
-      <h1>index</h1>
-    </div>
-  )
-}
+const Home:NextPage = () => {
+    return (
+        <h1>hola</h1> 
+    );
+};
 
-export default index
+export default Home;
